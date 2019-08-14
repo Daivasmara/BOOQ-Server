@@ -2,7 +2,9 @@ const { Schema, model } = require('mongoose');
 
 const authorSchema = new Schema({
   name: String,
-  age: Number
+  bio: String,
+  birth_city: String,
+  birthdate: Date
 });
 
 module.exports = model('Author', authorSchema);
