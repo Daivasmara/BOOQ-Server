@@ -119,7 +119,7 @@ npm start
 <!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_ -->
-This BE is built using `graphql`, so make use the provided `graphiql` to help you see what you're looking for. `localhost:<port>/graphql`
+This BE is built using `graphql`, so you can use the provided `graphiql` to help you see what you're looking for. `localhost:<port>/graphql`
 
 ![graphql](https://i.imgur.com/zqUV7dm.png)
 
