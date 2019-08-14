@@ -121,18 +121,20 @@ npm start
 _For more examples, please refer to the [Documentation](https://example.com)_ -->
 This BE is built using `graphql`, so make use the provided `graphiql` to help you see what you're looking for. `localhost:<port>/graphql`
 
-![graphql](https://i.imgur.com/2dMQ58B.png)
+![graphql](https://i.imgur.com/zqUV7dm.png)
 
 The documentation is provided on the right side of the interface
 
-![docs](https://i.imgur.com/Yh0WBJS.png)
+![docs](https://i.imgur.com/8oCsijy.png)
 
 <!-- ROADMAP -->
 ## Roadmap
 
 <!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
 
-Coming Soon!
+* **ERD 1.0**
+
+![ERD](https://i.imgur.com/OldGuzJ.png)
 
 
 <!-- CONTRIBUTING -->
