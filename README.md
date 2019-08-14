@@ -164,8 +164,8 @@ Distributed under the ISC License. See `LICENSE` for more information.
 * Azis Maulana Hakim - [LinkedIn](https://www.linkedin.com/in/azismedes/) - azishakim1@gmail.com
 
 Project Link: 
-Server: [https://github.com/Daivasmara/booq-server](https://github.com/Daivasmara/booq-server)
-Client : Coming Soon!
+  * Server: [https://github.com/Daivasmara/booq-server](https://github.com/Daivasmara/booq-server)
+  * Client : Coming Soon!
 
 
 
