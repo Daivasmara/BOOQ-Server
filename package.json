@@ -1,0 +1,29 @@
+{
+  "name": "booq-server",
+  "version": "1.0.0",
+  "description": "server side code for BOOQ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daivasmara/booq-server.git"
+  },
+  "author": "Muhammad Daivasmara Denaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daivasmara/booq-server/issues"
+  },
+  "homepage": "https://github.com/Daivasmara/booq-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
