@@ -81,7 +81,6 @@ What we're tyring to achieve is a platform in which everyone can share, discuss,
 * [Express](https://expressjs.com/)
 * [GraphQL](https://graphql.org/)
 * [Mongo DB](https://www.mongodb.com/)
-* [React](https://reactjs.org/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
