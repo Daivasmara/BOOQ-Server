@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Daivasmara/booq-server.git"
   },
   "author": "Muhammad Daivasmara Denaw",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Daivasmara/booq-server/issues"
   },
