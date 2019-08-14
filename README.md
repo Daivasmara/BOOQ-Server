@@ -132,7 +132,7 @@ The documentation is provided on the right side of the interface
 
 <!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
 
-* **ERD 1.0**
+* **ERD 0.1**
 
 ![ERD](https://i.imgur.com/OldGuzJ.png)
 
