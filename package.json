@@ -4,7 +4,7 @@
   "description": "server side code for BOOQ",
   "main": "index.js",
   "scripts": {
-    "start": "node -r dotenv/config",
+    "start": "node index",
     "dev": "node_modules/.bin/nodemon -r dotenv/config"
   },
   "repository": {
