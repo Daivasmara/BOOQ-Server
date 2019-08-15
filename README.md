@@ -165,9 +165,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * Azis Maulana Hakim - [LinkedIn](https://www.linkedin.com/in/azismedes/) - azishakim1@gmail.com
 
 Project Link: 
-  * Server: [https://github.com/Daivasmara/booq-server](https://github.com/Daivasmara/booq-server)
+  * Server : [https://github.com/Daivasmara/booq-server](https://github.com/Daivasmara/booq-server)
   * Client : Coming Soon!
 
+Deployed Link:
+  * Server : [https://booq-server.herokuapp.com/graphql](https://booq-server.herokuapp.com/graphql)
+  * Client : Coming Soon!
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
