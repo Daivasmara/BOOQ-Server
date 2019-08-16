@@ -87,7 +87,7 @@ const GenreType = new GraphQLObjectType({
 });
 
 const RootQuery = new GraphQLObjectType({
-  name: 'Queries',
+  name: 'RootQueryType',
   fields: {
     books: {
       type: new GraphQLList(BookType),
