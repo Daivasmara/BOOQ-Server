@@ -2,6 +2,7 @@ const {
   GraphQLSchema,
   GraphQLObjectType,
   GraphQLList,
+  GraphQLNonNull,
   GraphQLID,
   GraphQLString,
 } = require('graphql');
@@ -159,13 +160,13 @@ const Mutation = new GraphQLObjectType({
     addBook: {
       type: BookType,
       args: {
-        title: { type: GraphQLString },
-        synopsis: { type: GraphQLString },
-        published_date: { type: GraphQLDate },
-        language: { type: GraphQLString },
-        publisher_id: { type: GraphQLID },
-        author_id: { type: new GraphQLList(GraphQLID) },
-        genres_id: { type: new GraphQLList(GraphQLID) }
+        title: { type: new GraphQLNonNull(GraphQLString) },
+        synopsis: { type: new GraphQLNonNull(GraphQLString) },
+        published_date: { type: new GraphQLNonNull(GraphQLDate) },
+        language: { type: new GraphQLNonNull(GraphQLString) },
+        publisher_id: { type: new GraphQLNonNull(GraphQLID) },
+        author_id: { type: new GraphQLNonNull(new GraphQLList(GraphQLID)) },
+        genres_id: { type: new GraphQLNonNull(new GraphQLList(GraphQLID)) }
       },
       resolve(parent, args){
         let book = new Book({
@@ -183,10 +184,10 @@ const Mutation = new GraphQLObjectType({
     addAuthor: {
       type: AuthorType,
       args: {
-        name: { type: GraphQLString },
-        bio: { type: GraphQLString },
-        birth_city: { type: GraphQLString },
-        birthdate: { type: GraphQLDate }
+        name: { type: new GraphQLNonNull(GraphQLString) },
+        bio: { type: new GraphQLNonNull(GraphQLString) },
+        birth_city: { type: new GraphQLNonNull(GraphQLString) },
+        birthdate: { type: new GraphQLNonNull(GraphQLDate) }
       },
       resolve(parent, args){
         let author = new Author({
@@ -201,7 +202,7 @@ const Mutation = new GraphQLObjectType({
     addPublisher: {
       type: PublisherType,
       args: {
-        name: { type: GraphQLString }
+        name: { type: new GraphQLNonNull(GraphQLString) }
       },
       resolve(parent, args){
         let publisher = new Publisher({
@@ -213,7 +214,7 @@ const Mutation = new GraphQLObjectType({
     addGenre: {
       type: GenreType,
       args: {
-        name: { type: GraphQLString }
+        name: { type: new GraphQLNonNull(GraphQLString) }
       },
       resolve(parent, args){
         let genre = new Genre({
