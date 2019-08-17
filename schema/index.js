@@ -5,12 +5,13 @@ const {
   GraphQLID,
   GraphQLString,
 } = require('graphql');
+
 const { GraphQLDate } = require ('graphql-iso-date');
 
-const Book = require('../models/book');
-const Author = require('../models/author');
-const Genre = require('../models/genre');
-const Publisher = require('../models/publisher');
+const Book = require('../models/Book');
+const Author = require('../models/Author');
+const Genre = require('../models/Genre');
+const Publisher = require('../models/Publisher');
 
 const BookType = new GraphQLObjectType({
   name: 'Book',

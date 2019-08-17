@@ -19,13 +19,13 @@ connect(process.env.MONGODB_URI, {
 }).catch(error => console.log(error));
 connection.once('open', () => console.log('Connected to database!'));
 
-// express init
+// listening port
 app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
 
 // routes
 app.get('/', (req, res) => {
+  res.status(200);
   res.json({
-    status: 'OK',
     message: 'Welcome to BOOQ API'
   })
 });
