@@ -179,7 +179,7 @@ Deployed Link:
 [contributors-url]: https://github.com/Daivasmara/booq-server/graphs/contributors
 [forks-shield]: https://img.shields.io/badge/forks-0-blue
 [forks-url]: https://github.com/Daivasmara/booq-server/network/members
-[stars-shield]: https://img.shields.io/badge/stars-0-blue
+[stars-shield]: https://img.shields.io/badge/stars-1-blue
 [stars-url]: https://github.com/Daivasmara/booq-server/stargazers
 [issues-shield]: https://img.shields.io/badge/issues-0-orange
 [issues-url]: https://github.com/Daivasmara/booq-server/issues
