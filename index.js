@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const cors = require('cors');
@@ -7,16 +8,16 @@ const schema = require('./schema');
 
 const app = express();
 
-const PORT = process.env.PORT;
+const { PORT } = process.env;
 
 // middlewares
 app.use(cors());
 app.use(morgan('dev'));
 
-//db connection
+// db connection
 connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true
-}).catch(error => console.log(error));
+  useNewUrlParser: true,
+}).catch((error) => console.log(error));
 connection.once('open', () => console.log('Connected to database!'));
 
 // listening port
@@ -26,11 +27,11 @@ app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
 app.get('/', (req, res) => {
   res.status(200);
   res.json({
-    message: 'Welcome to BOOQ API'
+    message: 'Welcome to BOOQ API',
   })
 });
 
 app.use('/graphql', graphqlHTTP({
   schema,
-  graphiql: true
+  graphiql: true,
 }));
